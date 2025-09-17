@@ -1,0 +1,15 @@
+NOTICE
+------
+
+This repository includes code from the vcvio project,
+which is licensed under the Apache License, Version 2.0.
+
+<https://github.com/Verified-zkEVM/VCV-io>
+
+The vcvio-derived code can be found in the `SymbolicGarbledCircuitsInLean/VCVio2/` directory of this repository.
+It remains under the Apache License, Version 2.0.
+See the file `SymbolicGarbledCircuitsInLean/VCVio2/LICENSE` for details.
+
+---
+
+The new code in this repository (outside of the `VCVio2/` directory) are licensed under the MIT License.

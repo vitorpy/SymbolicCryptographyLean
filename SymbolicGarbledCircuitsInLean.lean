@@ -1,0 +1,30 @@
+-- This module serves as the root of the `SymbolicGarbledCircuitsInLean` library.
+-- Import modules here that should be built as part of the library.
+
+import SymbolicGarbledCircuitsInLean.Core.Fixpoints
+import SymbolicGarbledCircuitsInLean.Core.CardinalityLemmas
+import SymbolicGarbledCircuitsInLean.ComputationalIndistinguishability.Def
+import SymbolicGarbledCircuitsInLean.ComputationalIndistinguishability.Lemmas
+import SymbolicGarbledCircuitsInLean.Expression.Defs
+import SymbolicGarbledCircuitsInLean.Expression.SymbolicIndistinguishability
+import SymbolicGarbledCircuitsInLean.Expression.Renamings
+import SymbolicGarbledCircuitsInLean.Expression.Lemmas.Renaming
+import SymbolicGarbledCircuitsInLean.Expression.Lemmas.NormalizeIdempotent
+import SymbolicGarbledCircuitsInLean.Expression.Lemmas.HideEncrypted
+import SymbolicGarbledCircuitsInLean.Expression.ComputationalSemantics.Def
+import SymbolicGarbledCircuitsInLean.Expression.ComputationalSemantics.Soundness
+import SymbolicGarbledCircuitsInLean.Expression.ComputationalSemantics.RenamePreserves
+import SymbolicGarbledCircuitsInLean.Garbling.Circuits
+import SymbolicGarbledCircuitsInLean.Garbling.GarblingDef
+import SymbolicGarbledCircuitsInLean.Garbling.Simulate
+import SymbolicGarbledCircuitsInLean.Garbling.SymbolicHiding.GarbleHole
+import SymbolicGarbledCircuitsInLean.Garbling.SymbolicHiding.GarbleProof
+import SymbolicGarbledCircuitsInLean.Garbling.SymbolicHiding.SimulateProof
+import SymbolicGarbledCircuitsInLean.Garbling.SymbolicHiding.GarbleHoleBitSwap
+
+import SymbolicGarbledCircuitsInLean.Garbling.Security
+import SymbolicGarbledCircuitsInLean.Garbling.Correctness
+
+import SymbolicGarbledCircuitsInLean.VCVio2.ToMathlib.Control.MonadTransformer
+import SymbolicGarbledCircuitsInLean.VCVio2.VCVio.OracleComp.OracleComp
+import SymbolicGarbledCircuitsInLean.VCVio2.VCVio.OracleComp.DistSemantics.EvalDist
