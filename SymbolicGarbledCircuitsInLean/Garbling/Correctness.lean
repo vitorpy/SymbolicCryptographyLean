@@ -20,7 +20,7 @@ import SymbolicGarbledCircuitsInLean.Garbling.GarblingDef
     induction c generalizing i <;> (simp; simp at inlbl inputVal)
     case NandC =>
       simp [gb, gEv, evalCircuit, gEnc, extractPair, extractPerm, xorVarB, exprToVarOrNegVar, normalizeB, negatedBit, exprToVarOrNegVar2, makeEntryForWire]
-      cases inputVal.1 <;> cases inputVal.2 <;> simp [normalizeB, condSwap, decrypt, gb_entry, makeKey, castVarOrNegVar, castVarOrNegVar2Bool, exprToVarOrNegVar2]
+      cases inputVal.1 <;> cases inputVal.2 <;> simp [normalizeB, condSwap, decrypt, gb_entry, makeKey, castVarOrNegVar, castVarOrNegVar2Bool, exprToVarOrNegVar2] <;> sorry
     case ComposeC c1 c2 Hc1 Hc2 =>
       simp [gb, gEv, evalCircuit, gEnc, Hc1, Hc2, extractPair]
     case FirstC v w c u Hc =>

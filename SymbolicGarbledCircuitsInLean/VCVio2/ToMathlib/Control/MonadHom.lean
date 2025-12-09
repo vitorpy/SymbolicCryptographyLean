@@ -5,7 +5,7 @@ Authors: Devon Tuma
 -/
 import Mathlib.Probability.ProbabilityMassFunction.Monad
 import SymbolicGarbledCircuitsInLean.VCVio2.ToMathlib.Control.MonadAlgebra
-import Batteries.Control.Lawful.MonadLift
+import Batteries.Lean.LawfulMonadLift
 
 /-!
 # Morphisms Between Monads

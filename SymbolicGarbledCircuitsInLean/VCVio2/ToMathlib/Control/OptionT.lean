@@ -20,8 +20,9 @@ namespace OptionT
 variable {m : Type u → Type v} {n : Type u → Type w}
   (f : {α : Type u} →  m α → n α) {α β γ : Type u}
 
-@[simp] lemma run_lift {m : Type u → Type v} [Monad m]
-    {α : Type u} (x : m α) : (OptionT.lift x).run = x := rfl
+-- Note: OptionT.run_lift now exists in upstream batteries
+-- @[simp] lemma run_lift {m : Type u → Type v} [Monad m]
+--     {α : Type u} (x : m α) : (OptionT.lift x).run = x := rfl
 
 -- @[simp]
 lemma monad_pure_eq_pure [Monad m] (x : α) :

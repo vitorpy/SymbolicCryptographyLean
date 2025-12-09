@@ -5,7 +5,7 @@ Authors: Quang Dao
 -/
 
 import Batteries.Tactic.Alias
-import Batteries.Control.Lawful.MonadLift
+import Batteries.Lean.LawfulMonadLift
 
 /-! # Monad relations -/
 

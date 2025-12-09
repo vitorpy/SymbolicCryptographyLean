@@ -6,7 +6,7 @@ Authors: Quang Dao
 -- import Mathlib.CategoryTheory.Monad.Basic
 import Mathlib.Control.Lawful -- Enables inferInstance : LawfulMonad (OptionT m)
 import Batteries.Control.OptionT
-import Batteries.Control.Lawful.MonadLift
+import Batteries.Lean.LawfulMonadLift
 
 /-!
 # Monad transformers

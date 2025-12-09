@@ -5,7 +5,7 @@ Authors: Devon Tuma
 -/
 import Mathlib.Control.Monad.Writer
 import Batteries.Control.AlternativeMonad
-import Batteries.Control.Lawful.MonadLift
+import Batteries.Lean.LawfulMonadLift
 
 /-!
 # Laws for well behaved monadic `failure` operation
